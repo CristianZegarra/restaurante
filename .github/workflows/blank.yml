@@ -1,0 +1,620 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>El Gran Truchon HTML5 Restaurant Template</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+</head> 
+
+<body id="Inicio">
+
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/xd.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Inicio</a></li> 
+                        <li class="scroll"><a href="#about">Quienes somos</a></li>
+                        <li class="scroll"><a href="#services">nuestro servicios</a></li>
+                        <li class="scroll"><a href="#pricing">Precios</a></li>
+                        <li class="scroll"><a href="#portfolio">Galeria</a></li>
+                        <li class="scroll"><a href="#our-team">Equipo</a></li>
+                        <li class="scroll"><a href="#contact-us">contactenos</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="main-slider">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(images/slider/7w.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2><span>ambiente</span> animado</h2>
+                                    <p>Un gran lugar no solo por la comida sino tambien por los bellos paisajes situados en el mar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+             <div class="item" style="background-image: url(images/slider/8m.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2><span></span> Tema Simplemente Asombroso</h2>
+                                    <p>somo un lugar muy asombroso ubicado en el Grand Line y poseemos un hotel con cuarto vista al mar y un gran restaurante 5 estrellas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
+
+    <section id="hero-text" class="wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>Consigue platos increíbles y deliciosos con nosotros.</h2>
+                    <p>El dolor en sí es amor, el principal cliente. Siempre es una masa de risa que necesita una vida de algún tipo. La enfermedad de la vida es el tiempo del verdugo, y el león toma la cama. La masa del ramo es muy popular 
+                    </p>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <a class="btn btn-primary btn-lg" href="#">Menu</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/#hero-text-->
+
+     
+
+ <section id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Quienes somos</h2>
+                <p class="text-center wow fadeInDown">El dolor en sí es amor, el principal cliente. Es la masa de la vida la que necesita risa <br> siempre hay alguien que está ocupado.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                  <img class="img-responsive" src="images/1.jpg" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Somos un grupo asombroso</h3>
+                    <p>El dolor en sí es amor, el principal cliente. Siempre es una masa de risa que necesita una vida de algún tipo. La enfermedad de la vida es el tiempo del verdugo, y el león toma la cama. La masa del ramo es muy popular.</p>
+
+                    <p>No hay necesidad de dolor ni placer, hay que decir el dolor. La tierra no es pura en las consecuencias del fútbol. Hasta el momento del sistema inmunológico vergonzoso, la composición de las flechas en mi venenatis. Pero la televisión es un vehículo halagador. Para los niños que odian los problemas del león, la vida del gato olímpico es la salsa. </p>
+
+					<p>Es un vehículo de calentamiento olímpico, son muchos vehículos de fútbol. Cada osos, orcos, el autor de la caricatura, quiere inclinarse ante el miedo de los vikingos, en el fin de semana la tierra está en apenas</p>
+
+
+                    <a class="btn btn-primary" href="#">Learn More</a>
+
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-->
+
+    <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Lo que ofrecemos</h2>
+                <p class="text-center wow fadeInDown">Tenamos una gran variedad de sercicios<br> tenemos un buen trato al cliente y un gran hotel donde hospedarse.</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Platos a base de trucha</h4>
+                                <p>tenemos toda variedad de platos coon las cuales pueda degustar y tener expeciencias como comensal</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-compass"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Bebidas</h4>
+                                <p>Aqui tambien se ofrece toda clase, desde bebidas alcoholicas hasta agua mineral se ofrece jugos e infusiones</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bell"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Desayuno</h4>
+                                <p>No solo ofrecemos platos con trucha sino tambien tenemos desayunos para que pueda satisfacer sus gustos.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-cube"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Almuerzo</h4>
+                                <p>Te ofrecemos tambien por la tarde toda variedad de almuerzos en familia o si usted lo prefiere en mesas privadas</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-yelp"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Cena</h4>
+                                <p>Terminando la tarde se ofrece tambien una experiencia nocturna de cenar en nuestras hermoso restaurant vista al mar donde se observa todo luminiscente.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-life-ring"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Otros...</h4>
+                                <p>En este restaurante no solo se ofrece comida sino tambien la experiencia de hospedarse en nuestro hotel con un gran servicio y gran lugar para descansar y sentirse como en casa</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+<section id="Precios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Nuestro Menú</h2>
+                <p class="text-center wow fadeInDown">estos son algunos de nuestros servicios, <br> en estos tambien se encuentran nustros famosos platillos.</p>
+            </div>
+
+            <div class="row"> 
+			<div class="col-md-4 menuItem">     
+                            <ul class="menu">
+                                <li>
+                                    Trucha sudada
+                                    <div class="detail">Filete de Trucha envuelta en una crema con un toque a ajo.<span class="price">$10.49</span></div>
+                                </li>
+                                <li>
+                                    Trucha rellena de setas
+                                    <div class="detail">Trucha rellena de tocino y setas en salsa de ajo.<span class="price">$17.50</span></div>
+                                </li>
+                                <li>
+                                    Caviar de trucha con espuma de coliflor
+                                    <div class="detail">caviar de la trucha agregado a ello espuma de coliflor<span class="price">$30.99</span></div>
+                                </li>
+                                <li>
+                                    Trucha al epazote tlaxcalteca
+                                    <div class="detail">Trucha envuelta con en hojas de tamal con epazote y chile serrano<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Còctel de Gambas
+                                    <div class="detail">El cóctel de gambas es una entrada perfecta para un menú de primavera o verano.<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-md-4 menuItem">     
+                            <ul class="menu">
+                                <li>
+                                    Jalea de Pescado o Calamar
+                                    <div class="detail">pescados y mariscos bien fritos, acompañados de salsa de cebolla, yucas o papas fritas, salsa tártara o mayonesa.<span class="price">$26.49</span></div>
+                                </li>
+                                <li>
+                                    Vieille Bon Secours Ale
+                                    <div class="detail">Su contenido de alcohol es del 8% y tiene un sabor complejo con aromas de toffee, y tonos de regaliz y anís.<span class="price">$812.03</span></div>
+                                </li>
+                                <li>
+                                    Clericot de melocotón
+                                    <div class="detail">cóctel de melocon<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Caipirinha
+                                    <div class="detail">bebida alcohólica refrescante hecha con Cachaça, lima o limon, hielo picado y azúcar.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Lassi
+                                    <div class="detail">bebida fria con un gran poder refrescante hecha a base de mango, papaya o platano<span class="price">$9.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-md-4 menuItem">  
+                            <ul class="menu">
+                                <li>
+                                    Habitación estandar Doble
+                                    <div class="detail">habitacion con cama doble y baño privado<span class="price">$30.50</span></div>
+                                </li>
+                                <li>
+                                    Habitación estandar Triple
+                                    <div class="detail">habitacion con tres camas individuales y baño privado <span class="price">$40.50</span></div>
+                                </li>
+                                <li>
+                                    Habitacion estandar Cuadruple
+                                    <div class="detail">Habitacion con cuatro camas individuales y baño privado<span class="price">$60.50</span></div>
+                                </li>
+                                <li>
+                                    S u i t e
+                                    <div class="detail">tiene un dormitorio, sala,sala de juegos,cocina practicamente completa<span class="price">$3000</span></div>
+                                </li>
+                                <li>
+                                    Matrimoniales
+                                    <div class="detail">habitaciones con una amplia y comoda cama con vista al mar televisor y jacuzzi para pasar una experiencia unica el la vida<span class="price">$1700</span></div>
+                                </li>
+                            </ul>
+                        </div>
+			</div>
+        </div>
+    </section><!--/#pricing-->
+  
+
+  <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Nuestra Galeria de nuestro Menu, Bebidas y Habitaciones</h2> 
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            </div>
+
+            <div class="text-center" style="display:none">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                    <li><a href="#" data-filter=".designing">Coffee</a></li>
+                    <li><a href="#" data-filter=".mobile">Snacks</a></li>
+                    <li><a href="#" data-filter=".development">Continental</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/cav.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/cav.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/gam.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/gam.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/trsu.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/trsu.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/lassi.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/lassi.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/vbs.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/vbs.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/cuad.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/cuad.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/matr.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/matr.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/suite.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Some Name</h3> 
+                            <a class="preview" href="images/portfolio/suite.jpg" rel="prettyPhoto"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+   
+   
+    <section id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Nuestro Equipo</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/luisito.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Lusito</h3>
+                            <span>Manager</span>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/lacocpi.png" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Sergio Enciso Muriel</h3>
+                            <span>Sr Chef</span>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/yumland.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Yumland</h3>
+                            <span>Chef</span>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/I am.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Adriana clair</h3>
+                            <span>Chef</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!--/#our-team-->
+
+    
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+
+                    <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <p><img class="img-thumbnail" src="images/ws.jpg" alt=""></p>
+                                <h4>Wolfram Siebeck</h4> 
+                                <p>Dieses Restaurant ist ein großartiger Ort für kulinarische Erlebnisse und auch ein großartiger Ort zum Ausruhen(Este restaurant es un gran lugar para tener experiencias culinarias y tambien un gran lugar para descansar).</p>
+                            </div>
+                            <div class="item">
+                                <p><img class="img-thumbnail" src="images/av.jpg" alt=""></p>
+                                <h4>Antonio Vergara Deltoro</h4> 
+                                <p>Muy aparte de mi ciudad de Valencia, este sitio es un gran lugar para pasar una de las experiencias muy buenas como comensal.</p>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <div class="btns">
+                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#testimonial-->
+
+    
+    <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">contactenos</h2>
+                <p class="text-center wow fadeInDown">Pueden contactarnos a los numeros  <br> 986557127-995684563.</p>
+            </div>
+        </div>
+    </section><!--/#contact-us-->
+
+
+    <section id="contact">
+        
+        <div class="container-wrapper">
+            <div class="container contact-info">
+                <div class="row">
+				  <div class="col-sm-4 col-md-4">
+                        <div class="contact-form">
+                            <h3>Mas Informacion</h3>
+
+                            <address>
+                              <strong>El Gran Truchon.</strong><br>
+                              c-93, Punta Sal<br>
+                              Peru<br>
+                              <abbr title="Phone">P:</abbr> 986557127-995684563
+                            </address>
+					</div></div>
+                    <div class="col-sm-8 col-md-8">                      
+						<div class="contact-form">											
+						<form method="post" action="contact.php" id="contactform" class="contact" required>
+								<div class="form-group"> 
+									<input type="text" class="form-control" name="name" placeholder="Name" required> 
+								</div>
+								<div class="form-group"> 
+									<input type="email" class="form-control" name="email" placeholder="Email" required> 
+								</div>
+
+								<div class="form-group"> 
+									<textarea class="form-control" rows="8" name="comment" placeholder="Comment" required></textarea> 
+								</div>
+								<input type="submit" value="Send Message" id="submit" class="btn btn-primary">
+							</form>
+							 					
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="google-map" style="height:400px" data-latitude="-3.9815870457253304" data-longitude="-80.97921379852761"></div>   
+   </section><!--/#bottom-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2015 Company Name. <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Bootstrap Templates</a> By WebThemez
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
+</html>
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
